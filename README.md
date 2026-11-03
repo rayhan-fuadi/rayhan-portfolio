@@ -1,19 +1,14 @@
-# Rayhan Fuadi — Portfolio
+# Rayhan Fuadi — Personal Portfolio
 
-A responsive, static personal portfolio built with plain HTML, CSS, and JavaScript. Ready for GitHub Pages.
+A responsive, immersive static portfolio built with **HTML, CSS, and vanilla JavaScript**. It is designed for GitHub Pages and requires no build command, framework, or package installation.
 
-## Before publishing
-1. Replace `YOUR_EMAIL@example.com` in `index.html` with your public contact email.
-2. Replace `YOUR_GITHUB_USERNAME` in `index.html` with your GitHub username.
-3. Review all metrics, job titles, dates, and language proficiency for accuracy.
-4. Optionally add a PDF CV at `assets/Rayhan-Fuadi-CV.pdf` and add a CV download link.
+## Included
 
-## Deploy with GitHub Pages
-1. Create a GitHub repository (e.g. `rayhan-portfolio`).
-2. Upload all files in this folder to the repository root (keep `assets/`).
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`, then Save.
-6. Wait a minute or two; GitHub will show your public URL, usually `https://YOUR_GITHUB_USERNAME.github.io/rayhan-portfolio/`.
-
-No build step, framework, or package installation required.
+- Immersive dark interface with animated ambient lighting and hero entrance motion
+- Responsive navigation, scroll progress, active-section navigation, and smooth scrolling
+- Scroll-triggered reveals, animated career metrics, and subtle project-card tilt on desktop
+- Consistent inline SVG icon library (no missing icon font or icon CDN dependency)
+- Career journey, selected work, skills, languages, and contact sections
+- Professional portrait and original uploaded photo in `assets/`
+- Reduced-motion accessibility support
+- 
