@@ -3,91 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Rayhan Fuadi — Cloud Operations, Service Delivery, and Big Data Platforms." />
-  <meta name="theme-color" content="#0b1220" />
-  <title>Rayhan Fuadi | Cloud Operations & Service Delivery</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Rayhan Fuadi — Cloud Operations Manager working across cloud infrastructure, big data platforms, service delivery, and operational excellence." />
+  <meta name="theme-color" content="#080d17" />
+  <meta property="og:title" content="Rayhan Fuadi — Cloud Operations & Service Delivery" />
+  <meta property="og:description" content="Building reliable cloud services and operational teams that deliver meaningful business impact." />
+  <meta property="og:image" content="assets/portrait.png" />
+  <title>Rayhan Fuadi — Cloud Operations & Service Delivery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
-  <header class="site-header">
-    <a class="brand" href="#home"><span class="brand-mark">RF</span><span>Rayhan Fuadi</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav" id="nav">
-      <a href="#about">About</a><a href="#journey">Journey</a><a href="#work">Selected Work</a><a href="#skills">Expertise</a><a href="#contact">Contact</a>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 4v16m-7-7 7 7 7-7"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18a5 5 0 0 1-.7-9.95A6.5 6.5 0 0 1 18.8 9.4 4.3 4.3 0 0 1 18 18H7Z"/><path d="m9 13 3-3 3 3m-3-3v7"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2m7-10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18M8 15l4-4 3 3 6-7"/><path d="M16 7h5v5"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><path d="m4 17 6-5-6-5m8 12h8"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="16" y="16" width="6" height="6" rx="1"/><path d="M12 8v4m-7 4v-4h14v4"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.6c3-.3 6.1-1.5 6.1-6.7A5.2 5.2 0 0 0 18.8 5a4.8 4.8 0 0 0-.1-3S17.5 1.7 15 3.4a13.2 13.2 0 0 0-7 0C5.5 1.7 4.3 2 4.3 2A4.8 4.8 0 0 0 4.2 5a5.2 5.2 0 0 0-1.4 3.8c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 8 18.1V22"/></symbol>
+    <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m18 6-12 12M6 6l12 12"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 1.7 6.3L20 10l-6.3 1.7L12 18l-1.7-6.3L4 10l6.3-1.7L12 2Zm7 13 .9 3.1L23 19l-3.1.9L19 23l-.9-3.1L15 19l3.1-.9L19 15Z"/></symbol>
+  </svg>
+
+  <div class="reading-progress" id="readingProgress"></div>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Rayhan Fuadi home"><span class="brand-symbol">RF<span>.</span></span><span class="brand-name">RAYHAN FUADI</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><svg class="icon"><use href="#i-menu"></use></svg></button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#journey">Journey</a><a href="#work">Selected work</a><a href="#expertise">Expertise</a>
     </nav>
-    <a class="header-cta" href="#contact">Let's connect <span>↗</span></a>
+    <a class="nav-contact" href="#contact">Let's talk <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a>
   </header>
 
   <main>
-    <section class="hero section-wrap" id="home">
+    <section class="hero section-shell" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> CLOUD OPERATIONS · SERVICE DELIVERY</p>
-        <h1>Reliable cloud.<br><span>Meaningful impact.</span></h1>
-        <p class="hero-lede">I’m Rayhan Fuadi — an IT operations professional bridging cloud technology, data platforms, and business outcomes.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#work">Explore my work <span>↘</span></a>
-          <a class="button button-ghost" href="#contact">Get in touch</a>
-        </div>
-        <div class="hero-meta"><span>Jakarta, Indonesia</span><span class="meta-divider"></span><span>Open to international opportunities</span></div>
+        <div class="eyebrow"><span class="eyebrow-pulse"></span> CLOUD OPERATIONS & SERVICE DELIVERY</div>
+        <p class="hero-intro">Hello, I'm</p>
+        <h1>Rayhan<br><span>Fuadi.</span></h1>
+        <p class="hero-summary">I build reliable cloud operations, lead high-performing teams, and connect technology with business outcomes.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#work">Explore my work <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a><a class="button button-secondary" href="#contact">Get in touch <svg class="icon"><use href="#i-arrow-right"></use></svg></a></div>
+        <div class="hero-footnote"><span class="location-icon"><svg class="icon"><use href="#i-map-pin"></use></svg></span><span>Jakarta, Indonesia</span><i></i><span>Open to global opportunities</span></div>
       </div>
-      <div class="hero-visual">
-        <div class="portrait-frame"><img src="assets/portrait.png" alt="Professional portrait of Rayhan Fuadi" /></div>
-        <div class="portrait-caption"><span class="caption-line"></span><div><strong>M. Rayhan Fuadi</strong><small>Cloud Operations Manager</small></div></div>
-        <div class="floating-card"><span class="card-icon">↗</span><div><strong>99.99%</strong><small>Service availability target / achievement</small></div></div>
-        <div class="hero-orbit"></div>
+      <div class="hero-stage" aria-label="Portrait of Rayhan Fuadi">
+        <div class="stage-glow"></div><div class="stage-ring ring-one"></div><div class="stage-ring ring-two"></div>
+        <div class="portrait-wrap"><img src="assets/portrait.png" alt="Rayhan Fuadi wearing a navy suit" class="portrait" /></div>
+        <div class="portrait-shade"></div>
+        <div class="stage-label"><span class="stage-label-line"></span><div><strong>M. Rayhan Fuadi</strong><small>Cloud Operations Manager</small></div></div>
+        <div class="float-card float-card-top"><span class="float-icon"><svg class="icon"><use href="#i-shield"></use></svg></span><div><strong>99.99%</strong><small>SLA achievement</small></div></div>
+        <div class="float-card float-card-bottom"><span class="live-dot"></span><div><strong>Always improving</strong><small>People · Process · Platform</small></div></div>
+        <div class="stage-index">01 <span>/</span> 05</div>
       </div>
+      <a class="scroll-cue" href="#impact"><span>SCROLL TO EXPLORE</span><svg class="icon"><use href="#i-arrow-down"></use></svg></a>
     </section>
 
-    <section class="metrics section-wrap" aria-label="Career highlights">
-      <div class="metric"><strong>18<span>+</span></strong><small>Operations team<br>leadership</small></div>
-      <div class="metric"><strong>24<span>/7</span></strong><small>Operational<br>coverage</small></div>
-      <div class="metric"><strong>99.99<span>%</span></strong><small>SLA achievement<br>(project context)</small></div>
-      <div class="metric"><strong>12<span>×</span></strong><small>Faster data processing<br>(migration outcome)</small></div>
-    </section>
+    <section class="trust-strip" aria-label="Professional focus areas"><div class="trust-track"><span>CLOUD INFRASTRUCTURE</span><b>✳</b><span>BIG DATA PLATFORMS</span><b>✳</b><span>OPERATIONAL EXCELLENCE</span><b>✳</b><span>SERVICE DELIVERY</span><b>✳</b><span>TEAM LEADERSHIP</span><b>✳</b><span>CLOUD INFRASTRUCTURE</span><b>✳</b><span>BIG DATA PLATFORMS</span><b>✳</b><span>OPERATIONAL EXCELLENCE</span><b>✳</b><span>SERVICE DELIVERY</span><b>✳</b></div></section>
 
-    <section class="section-wrap section" id="about">
-      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Technology is only valuable<br>when it <span>works for people.</span></h2></div>
-      <div class="about-grid">
-        <p class="about-lead">I work at the intersection of cloud infrastructure, operational excellence, and customer delivery.</p>
-        <div class="about-text"><p>As Cloud Operations Manager at iSoftStone Software Indonesia, supporting Huawei Cloud Indonesia, I help build and run reliable operations for enterprise cloud and big data environments.</p><p>My work spans team leadership, service governance, incident and change management, stakeholder coordination, and continuous improvement. I enjoy turning complex technical operations into dependable services that customers can trust.</p><div class="traits"><span>Operational excellence</span><span>Customer-first mindset</span><span>Continuous improvement</span></div></div>
+    <section class="impact-section section-shell" id="impact">
+      <div class="section-kicker"><span>01</span> / IMPACT AT A GLANCE</div>
+      <div class="impact-grid">
+        <article class="impact-card"><div class="impact-icon"><svg class="icon"><use href="#i-users"></use></svg></div><strong class="count" data-count="18" data-suffix="+">18+</strong><p>Operations team members led across L1, L2 & L3 functions.</p></article>
+        <article class="impact-card"><div class="impact-icon"><svg class="icon"><use href="#i-globe"></use></svg></div><strong class="count" data-count="24" data-suffix="/7">24/7</strong><p>Operational coverage for business-critical cloud services.</p></article>
+        <article class="impact-card"><div class="impact-icon"><svg class="icon"><use href="#i-shield"></use></svg></div><strong class="count" data-count="99.99" data-suffix="%">99.99%</strong><p>SLA achievement across supported cloud and data services.</p></article>
+        <article class="impact-card"><div class="impact-icon"><svg class="icon"><use href="#i-chart"></use></svg></div><strong class="count" data-count="12" data-suffix="×">12×</strong><p>Faster data processing reported after cloud migration.</p></article>
       </div>
+      <p class="metric-footnote">Figures reflect project and operational context; outcomes depend on workload and measurement scope.</p>
     </section>
 
-    <section class="section-wrap section" id="journey">
-      <div class="section-heading"><p class="eyebrow">02 / CAREER JOURNEY</p><h2>From customer conversations<br>to <span>cloud operations.</span></h2></div>
-      <div class="timeline">
-        <article class="timeline-item"><div class="timeline-date">NOV 2024 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><h3>Cloud Operations Manager</h3><span class="tag">Current</span></div><h4>PT. iSoftStone Software Indonesia · Supporting Huawei Cloud Indonesia</h4><ul><li>Lead and coordinate an 18-person operations team across L1/L2/L3 functions and 24/7 shifts.</li><li>Support cloud infrastructure and big data platform operations for a major telecommunications environment.</li><li>Drive service reliability, operational governance, incident/change processes, and customer reporting.</li><li>Coordinate stakeholders across cloud, data engineering, platform, and customer teams.</li></ul></div></article>
-        <article class="timeline-item"><div class="timeline-date">PREVIOUS EXPERIENCE</div><div class="timeline-marker"></div><div class="timeline-content"><h3>Business Development · Cloud Services</h3><h4>Earlier professional experience</h4><p>Built a foundation in customer engagement, commercial communication, and understanding business needs—experience that now complements my technical operations leadership.</p></div></article>
-        <article class="timeline-item"><div class="timeline-date">UNIVERSITY YEARS</div><div class="timeline-marker"></div><div class="timeline-content"><h3>Arabic Learning & Teaching</h3><h4>Language and communication</h4><p>Studied Arabic for approximately ten years and taught Arabic during college. This background shaped my interest in cross-cultural communication and regional opportunities.</p></div></article>
-      </div>
+    <section class="about-section section-shell section-space" id="about">
+      <div class="section-heading"><div class="section-kicker"><span>02</span> / ABOUT ME</div><h2>Making complex operations<br><em>feel effortless.</em></h2></div>
+      <div class="about-content"><div class="about-lead"><span class="quote-mark">“</span><p>Great technology needs great operations behind it.</p></div><div class="about-description"><p>I'm an IT operations professional working across cloud infrastructure, big data platforms, service delivery, and team leadership. In my current role, I help operate enterprise cloud environments while building the people, processes, and governance needed to keep services dependable.</p><p>My earlier experience in business development shaped how I communicate with customers and translate technical work into business value. I bring that customer perspective into operational decisions—balancing reliability, risk, efficiency, and delivery.</p><div class="about-facts"><span><svg class="icon"><use href="#i-map-pin"></use></svg> Jakarta, Indonesia</span><span><svg class="icon"><use href="#i-globe"></use></svg> Indonesian · English · Arabic</span></div></div></div>
     </section>
 
-    <section class="section-wrap section" id="work">
-      <div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Systems, teams, and outcomes<br><span>that matter.</span></h2><p class="section-intro">A high-level overview of work themes. Details are intentionally generalized to respect customer confidentiality.</p></div>
-      <div class="project-grid">
-        <article class="project-card project-wide"><div class="project-art art-cloud"><span class="art-orb">☁</span><span class="art-grid"></span></div><div class="project-body"><span class="project-label">CLOUD · DATA PLATFORM</span><h3>Enterprise Data Lake Migration</h3><p>Operations support for a Hadoop-to-cloud data lake transformation, helping teams deliver faster processing and dependable platform operations.</p><div class="project-tags"><span>Huawei Cloud</span><span>Data Lake</span><span>ETL</span><span>Operations</span></div></div></article>
-        <article class="project-card"><div class="project-art art-ops"><span class="mini-window"></span><span class="mini-window"></span><span class="mini-window"></span></div><div class="project-body"><span class="project-label">LEADERSHIP · GOVERNANCE</span><h3>24/7 Cloud Operations</h3><p>Building team structures, shift coverage, escalation paths, operational reporting, and service governance.</p><div class="project-tags"><span>Incident Mgmt</span><span>ITSM</span><span>SLA</span></div></div></article>
-        <article class="project-card"><div class="project-art art-finops"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span><span class="trend">↗</span></div><div class="project-body"><span class="project-label">FINOPS · IMPROVEMENT</span><h3>Cloud Cost & Efficiency</h3><p>Monthly consumption analysis, cost visibility, optimization tracking, and management reporting.</p><div class="project-tags"><span>FinOps</span><span>Reporting</span><span>Optimization</span></div></div></article>
-      </div>
-      <p class="confidential-note">※ Project descriptions are generalized; customer-sensitive information is not published.</p>
-    </section>
-
-    <section class="section-wrap section" id="skills">
-      <div class="section-heading"><p class="eyebrow">04 / EXPERTISE</p><h2>Where I <span>add value.</span></h2></div>
-      <div class="skills-layout">
-        <div class="skill-group"><div class="skill-icon">⌘</div><h3>Cloud & Infrastructure</h3><div class="skill-list"><span>Huawei Cloud</span><span>ECS / Compute</span><span>VPC & Networking</span><span>OBS / Storage</span><span>Cloud Security</span><span>Linux Operations</span></div></div>
-        <div class="skill-group"><div class="skill-icon">▦</div><h3>Data Platforms</h3><div class="skill-list"><span>Data Lake</span><span>Big Data Operations</span><span>Apache Spark</span><span>Flink</span><span>NiFi / ETL</span><span>Data Pipeline Monitoring</span></div></div>
-        <div class="skill-group"><div class="skill-icon">◎</div><h3>Leadership & Delivery</h3><div class="skill-list"><span>24/7 Operations</span><span>Incident Management</span><span>Change Management</span><span>SLA / KPI Governance</span><span>Team Leadership</span><span>Customer Reporting</span></div></div>
-        <div class="skill-group"><div class="skill-icon">文</div><h3>Languages</h3><div class="language-row"><span>Indonesian</span><b>Native</b></div><div class="language-row"><span>English</span><b>Professional</b></div><div class="language-row"><span>Arabic</span><b>Long-term study & teaching</b></div></div>
+    <section class="journey-section section-shell section-space" id="journey">
+      <div class="section-heading split-heading"><div><div class="section-kicker"><span>03</span> / CAREER JOURNEY</div><h2>A path built on<br><em>curiosity & ownership.</em></h2></div><p class="heading-aside">A blend of technology, customer understanding, and the discipline to keep mission-critical services running.</p></div>
+      <div class="journey-list">
+        <article class="journey-item current"><div class="journey-date">NOV 2024 — PRESENT</div><div class="journey-marker"><span></span></div><div class="journey-detail"><div class="journey-title-row"><h3>Cloud Operations Manager</h3><span class="current-tag">CURRENT ROLE</span></div><h4>PT. iSoftStone Software Indonesia · Supporting Huawei Cloud Indonesia</h4><p>Leading cloud operations for enterprise infrastructure and big data services, with responsibility spanning team coordination, operational governance, service reliability, and customer-facing delivery.</p><ul><li>Lead an 18-person operations team across L1/L2/L3 functions and 24/7 shifts.</li><li>Coordinate service operations for 13 cloud infrastructure and data platform services.</li><li>Drive incident, change, risk, reporting, and continuous-improvement practices.</li></ul></div></article>
+        <article class="journey-item"><div class="journey-date">EARLIER EXPERIENCE</div><div class="journey-marker"><span></span></div><div class="journey-detail"><h3>Business Development · Cloud Services</h3><h4>Commercial & customer-facing experience</h4><p>Built a foundation in customer engagement, business communication, and identifying technology needs—skills that now complement technical service delivery and operations leadership.</p></div></article>
+        <article class="journey-item"><div class="journey-date">UNIVERSITY YEARS</div><div class="journey-marker"><span></span></div><div class="journey-detail"><h3>Arabic Language · Learning & Teaching</h3><h4>Approximately 10 years of study</h4><p>Developed Arabic language skills over many years and taught Arabic during college. This experience strengthened my interest in language, culture, and working across international environments.</p></div></article>
       </div>
     </section>
 
-    <section class="contact-section" id="contact"><div class="section-wrap contact-inner"><div><p class="eyebrow">05 / CONTACT</p><h2>Let’s build something<br><span>reliable together.</span></h2><p class="contact-copy">Interested in cloud operations, service delivery, or international opportunities? I’d be glad to connect.</p></div><div class="contact-links"><a href="mailto:fuadi.work@google.com" class="contact-link"><span>✉</span><div><small>Email</small><strong>fuadi.work@google.com</strong></div><b>↗</b></a><a href="https://www.linkedin.com/in/rayhanfuadi" target="_blank" rel="noreferrer" class="contact-link"><span>in</span><div><small>LinkedIn</small><strong>linkedin.com/in/rayhanfuadi</strong></div><b>↗</b></a><a href="https://github.com/rayhan-fuadi/rayhan-portfolio" target="_blank" rel="noreferrer" class="contact-link"><span>⌘</span><div><small>GitHub</small><strong>github.com/rayhan-fuadi/rayhan-portfolio</strong></div><b>↗</b></a></div></div></section>
+    <section class="work-section section-space" id="work"><div class="section-shell">
+      <div class="section-heading split-heading"><div><div class="section-kicker"><span>04</span> / SELECTED WORK</div><h2>Turning platforms into<br><em>reliable outcomes.</em></h2></div><p class="heading-aside">A selection of work themes from enterprise cloud operations. Project details are generalized to respect customer confidentiality.</p></div>
+      <div class="work-grid">
+        <article class="work-card work-featured" data-tilt><div class="work-visual visual-data"><div class="visual-grid"></div><div class="data-core"><svg class="icon"><use href="#i-database"></use></svg></div><span class="orbit orbit-a"></span><span class="orbit orbit-b"></span><span class="visual-chip chip-a">DATA LAKE</span><span class="visual-chip chip-b">CLOUD</span></div><div class="work-content"><div class="work-meta"><span>01 / DATA PLATFORM</span><span class="work-arrow"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></span></div><h3>Enterprise Data Lake Migration</h3><p>Supporting a large-scale transition from on-premises Hadoop to Huawei Cloud, with operational readiness and service reliability across modern data processing pipelines.</p><div class="tag-list"><span>Huawei Cloud</span><span>Big Data</span><span>ETL</span><span>Operations</span></div></div></article>
+        <article class="work-card" data-tilt><div class="work-visual visual-ops"><div class="ops-screen screen-one"><i></i><i></i><i></i><b></b><b></b></div><div class="ops-screen screen-two"><i></i><i></i><b></b><b></b><b></b></div><div class="ops-screen screen-three"><i></i><b></b><b></b></div><div class="visual-center-icon"><svg class="icon"><use href="#i-network"></use></svg></div></div><div class="work-content"><div class="work-meta"><span>02 / SERVICE DELIVERY</span><span class="work-arrow"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></span></div><h3>24/7 Cloud Operations</h3><p>Establishing operational structure, shift coverage, escalation paths, incident response, and service governance for business-critical environments.</p><div class="tag-list"><span>IT Operations</span><span>Incident Mgmt</span><span>SLA</span></div></div></article>
+        <article class="work-card" data-tilt><div class="work-visual visual-finops"><div class="finops-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div><svg class="trend-line" viewBox="0 0 300 130" preserveAspectRatio="none"><path d="M4 112 C54 108 66 82 104 88 S154 65 186 70 S238 24 294 12"/></svg><span class="finops-label">COST VISIBILITY</span></div><div class="work-content"><div class="work-meta"><span>03 / CONTINUOUS IMPROVEMENT</span><span class="work-arrow"><svg class="icon"><use href="#i-arrow-up-right"></use></svg></span></div><h3>FinOps & Efficiency</h3><p>Turning consumption data into actionable monthly reporting, optimization tracking, and clearer cost conversations with stakeholders.</p><div class="tag-list"><span>FinOps</span><span>Reporting</span><span>Optimization</span></div></div></article>
+      </div>
+      <p class="confidential-note"><svg class="icon"><use href="#i-shield"></use></svg> Project descriptions are intentionally high-level and exclude customer-sensitive information.</p>
+    </div></section>
+
+    <section class="expertise-section section-shell section-space" id="expertise">
+      <div class="section-heading"><div class="section-kicker"><span>05</span> / EXPERTISE</div><h2>The toolkit behind<br><em>the delivery.</em></h2></div>
+      <div class="expertise-grid">
+        <article class="expertise-card"><div class="expertise-head"><span class="expertise-icon"><svg class="icon"><use href="#i-cloud"></use></svg></span><span class="expertise-number">01</span></div><h3>Cloud & Infrastructure</h3><p>Operating the infrastructure foundation behind enterprise platforms.</p><div class="expertise-tags"><span>Huawei Cloud</span><span>ECS</span><span>VPC & Networking</span><span>OBS</span><span>Cloud Security</span><span>Linux</span></div></article>
+        <article class="expertise-card"><div class="expertise-head"><span class="expertise-icon"><svg class="icon"><use href="#i-database"></use></svg></span><span class="expertise-number">02</span></div><h3>Big Data Platforms</h3><p>Supporting reliable data movement, processing, and platform operations.</p><div class="expertise-tags"><span>Data Lake</span><span>Apache Spark</span><span>Flink</span><span>NiFi</span><span>Kafka</span><span>ETL</span></div></article>
+        <article class="expertise-card"><div class="expertise-head"><span class="expertise-icon"><svg class="icon"><use href="#i-shield"></use></svg></span><span class="expertise-number">03</span></div><h3>Operations & Governance</h3><p>Building repeatable operating models with service quality and risk in mind.</p><div class="expertise-tags"><span>ITSM</span><span>Incident Mgmt</span><span>Change Mgmt</span><span>SLA / KPI</span><span>Risk Mgmt</span><span>Team Leadership</span></div></article>
+        <article class="expertise-card"><div class="expertise-head"><span class="expertise-icon"><svg class="icon"><use href="#i-globe"></use></svg></span><span class="expertise-number">04</span></div><h3>Communication</h3><p>Connecting technical teams, customers, and business stakeholders.</p><div class="language-list"><div><span>Indonesian</span><b>Native</b></div><div><span>English</span><b>Professional</b></div><div><span>Arabic</span><b>Long-term study & teaching</b></div></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="contact-glow"></div><div class="section-shell contact-inner"><div class="contact-copy"><div class="section-kicker"><span>06</span> / GET IN TOUCH</div><h2>Have a challenge<br>worth <em>solving?</em></h2><p>Let's connect about cloud operations, service delivery, big data platforms, or opportunities to build reliable technology services together.</p><div class="contact-location"><svg class="icon"><use href="#i-map-pin"></use></svg> Jakarta, Indonesia <span>·</span> Open to international opportunities</div></div><div class="contact-panel"><p class="panel-label">START A CONVERSATION</p><a class="contact-row" href="mailto:YOUR_EMAIL@example.com"><span class="contact-row-icon"><svg class="icon"><use href="#i-mail"></use></svg></span><span><small>EMAIL</small><strong>YOUR_EMAIL@example.com</strong></span><svg class="icon row-arrow"><use href="#i-arrow-up-right"></use></svg></a><a class="contact-row" href="https://www.linkedin.com/in/rayhanfuadi" target="_blank" rel="noreferrer"><span class="contact-row-icon"><svg class="icon"><use href="#i-linkedin"></use></svg></span><span><small>LINKEDIN</small><strong>rayhanfuadi</strong></span><svg class="icon row-arrow"><use href="#i-arrow-up-right"></use></svg></a><a class="contact-row" href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noreferrer"><span class="contact-row-icon"><svg class="icon"><use href="#i-github"></use></svg></span><span><small>GITHUB</small><strong>YOUR_GITHUB_USERNAME</strong></span><svg class="icon row-arrow"><use href="#i-arrow-up-right"></use></svg></a><div class="contact-note"><svg class="icon"><use href="#i-spark"></use></svg> Usually happy to connect with fellow builders and technology leaders.</div></div></div></section>
   </main>
-  <footer class="site-footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">RF</span><span>Rayhan Fuadi</span></a><p>© <span id="year"></span> Rayhan Fuadi · Built with HTML, CSS & JavaScript</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+
+  <footer class="site-footer section-shell"><a class="brand" href="#top"><span class="brand-symbol">RF<span>.</span></span><span class="brand-name">RAYHAN FUADI</span></a><p>© <span id="year"></span> Rayhan Fuadi. Designed with intent.</p><a href="#top" class="back-top">BACK TO TOP <svg class="icon"><use href="#i-arrow-up-right"></use></svg></a></footer>
   <script src="script.js"></script>
 </body>
 </html>
